@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 from alchemyapi import AlchemyAPI
 
-# Requires https://github.com/AlchemyAPI/alchemyapi_python
-
 # Create the AlchemyAPI Object
 alchemyapi = AlchemyAPI()
 
@@ -33,15 +31,14 @@ else:
     print('Error in keyword extaction call: ', response1['statusInfo'])
 
 # Print the report
-finallist = zip(firstlist, secondlist)
+final_list = zip(firstlist, secondlist)
 
 print("{:<30}     {:<30}".format(url1, url2))
 counter = 0
-for item in finallist:
+for item in final_list:
     print("{}: {:<30}     {}: {:<30}".format(counter, ' '.join(item[0].split()), counter, ' '.join(item[1].split())))
     counter += 1
 
-# Get a concepts report
 response1 = alchemyapi.concepts('url', url1)
 response2 = alchemyapi.concepts('url', url2)
 
@@ -60,11 +57,10 @@ if response2['status'] == 'OK':
 else:
     print('Error in keyword extaction call: ', response1['statusInfo'])
 
-# Print concepts lists
-finallist = zip(firstlist, secondlist)
+final_list = zip(firstlist, secondlist)
 
 print("{:<30}     {:<30}".format(url1, url2))
 counter1 = 0
-for item in finallist:
+for item in final_list:
     print("{}: {:<30}     {}: {:<30}".format(counter1, str(item[0]), counter1, str(item[1])))
     counter1 += 1
