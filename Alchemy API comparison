@@ -39,6 +39,7 @@ for item in final_list:
     print("{}: {:<30}     {}: {:<30}".format(counter, ' '.join(item[0].split()), counter, ' '.join(item[1].split())))
     counter += 1
 
+# Get a Concepts report
 response1 = alchemyapi.concepts('url', url1)
 response2 = alchemyapi.concepts('url', url2)
 
@@ -58,6 +59,8 @@ else:
     print('Error in keyword extaction call: ', response1['statusInfo'])
 
 final_list = zip(firstlist, secondlist)
+
+# Print Concepts report
 
 print("{:<30}     {:<30}".format(url1, url2))
 counter1 = 0
