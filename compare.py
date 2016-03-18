@@ -1,8 +1,8 @@
 #!/usr/bin/env python
-from alchemyapi import AlchemyAPI
+from alchemyAPI import AlchemyAPI
 
 # Create the AlchemyAPI Object
-alchemyapi = AlchemyAPI()
+alchemyapi = AlchemyAPI('YOUR_KEY_HERE')
 
 # Add two urls to compare
 url1 = 'https://moz.com/beginners-guide-to-seo/keyword-research'
