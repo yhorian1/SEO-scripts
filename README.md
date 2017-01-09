@@ -1,7 +1,7 @@
 # SEO-scripts
 Some scripts I use for auditing, research and lead generation.
 
-**How to use Compare.py:
+### How to use Compare.py: 
 
 You'll need to install Python >= 3.4
 
@@ -13,7 +13,7 @@ Run from Python command line.
 
 TODO: Command line options to 1) add a key (writes to text file) 2) Specify URLs 3) Do a full single page comparison.
 
-**How to use FB graph API.gs:
+### How to use FB graph API.gs: 
 
 You'll need your ad accounts ID: https://www.facebook.com/business/help/1492627900875762
 
