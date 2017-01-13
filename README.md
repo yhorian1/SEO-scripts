@@ -2,7 +2,16 @@
 Some scripts I use for auditing, research and lead generation.
 
 ### How to use Compare.py: 
-
+sdfsdfsdfsdfsd
+sdfsdf
+sdf
+sdfsdfsdfsdf
+sdf
+sdf
+sdf
+sd
+fsd
+fsdf
 You'll need to install Python >= 3.4
 
 Get an API key from: http://www.alchemyapi.com/api/register.html
